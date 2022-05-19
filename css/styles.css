@@ -1,3 +1,12 @@
+/* CUSTOM PROPERTIES */
+:root {
+  --body-bg: #fff;
+  --text-color: #83869a;
+  --dark-blue: #13183f;
+  --dark-pink: #f74780;
+  --transition-duration: 0.5s;
+}
+
 /* FONTS */
 @font-face {
   font-family: "Plus Jakarta Sans";
@@ -59,8 +68,8 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 156%;
-  background-color: #fff;
-  color: #222;
+  background-color: var(--body-bg);
+  color: var(--text-color);
 }
 
 img {
