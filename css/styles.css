@@ -317,7 +317,7 @@ img {
 
 /* MAIN-CONTENT-BEGIN */
 .main-content {
-  padding-top: 55px;
+  padding-top: 47px;
   padding-bottom: 140px;
   background-image: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
@@ -327,7 +327,122 @@ img {
   padding-bottom: 0;
 }
 
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -80px;
+  margin-right: -30px;
+}
 
+.list-heading {
+  background-image: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  border-radius: 15px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 350px;
+  padding: 64px 32px 40px 32px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.044);
+  border-radius: 15px;
+  margin-right: 30px;
+  margin-bottom: 80px;
+  background-color: #fff;
+}
+
+.list-item-inner {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.list-heading-text {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 125%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--button-text-color);
+}
+
+.list-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateY(-24px);
+  background-image: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.list-icon {
+  object-fit: contain;
+}
+
+.list-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: var(--dark-blue);
+}
+
+.list-title-info {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.list-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--dark-pink);
+  font-weight: 700;
+  margin-top: auto;
+  transition: color var(--transition-duration) ease,
+  opacity var(--transition-duration) ease;
+}
+
+.list-link:hover {
+  color: #ffa7c3;
+  cursor: pointer;
+}
+
+.list-link:active {
+  opacity: 0.6;
+}
+
+.list-icon-animation {
+  width: 23px;
+  height: 24px;
+}
+
+.list-icon-design {
+  width: 18px;
+  height: 18px;
+}
+
+.list-icon-photography {
+  width: 20px;
+  height: 18px;
+}
+
+.list-icon-crypto {
+  width: 16px;
+  height: 16px;
+}
+
+.list-icon-business {
+  width: 18px;
+  height: 21px;
+}
 /* MAIN-CONTENT-END */
 
 
