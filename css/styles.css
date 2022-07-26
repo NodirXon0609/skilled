@@ -96,6 +96,7 @@ img {
   font-weight: 700;
   text-decoration: none;
   text-align: center;
+  white-space: nowrap;
   cursor: pointer;
   text-transform: capitalize;
   transition: opacity var(--transition-duration) ease,
